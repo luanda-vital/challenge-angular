@@ -1,27 +1,83 @@
-# ChallengeAngular
+<h1 align="center">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/2048px-Angular_full_color_logo.svg.png" alt="Angular" width="50">
+    Challenge Angular
+</h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.4.
+<h3 align="center">
+  <br>
+    Desafio Processo Seletivo Bart Digital
+  <br>
+  <br>
+    <img src="https://static.wixstatic.com/media/4d5d2b_8e82152ec7f74f3a805cf83d50ace2af~mv2.png/v1/fit/w_2500,h_1330,al_c/4d5d2b_8e82152ec7f74f3a805cf83d50ace2af~mv2.png" alt="Bart Digital" height="150">
+  <br>
+</h3>
 
+<p align="center">
+ <a href="#pencil2-descrição">Descrição</a> •
+ <a href="#rocket-tecnologias">Tecnologias</a> •
+ <a href="#computer-screenshot">ScreenShot</a> •
+ <a href="#information_source-download-e-teste">Download e Teste</a>
+</p>
+
+<h4 align="center"> 
+	🚧  Em construção...  🚧
+</h4>
+
+## :pencil2: Descrição
+O objetivo do desafio é conectar a api https://restcountries.eu/rest/v2/all e listar os países utilizando Angular.
+Deve ser colocado em uma tabela a bandeira, o nome e a capital de cada país.
+
+## :rocket: Tecnologias
+
+As tecnologias utilizadas na construção do desafio foram:
+
+- **Angular** - Esse projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) versão 12.1.4.
+
+- **HTML**
+
+- **SCSS**
+
+- **JavaScript** 
+
+- [TypeScript](https://www.typescriptlang.org/)
+
+## :computer: ScreenShot
+
+## :information_source: Download e Teste
+
+-  Instalar o [Git](https://git-scm.com/), [NodeJS](https://nodejs.org/pt-br/download/) + [npm](https://www.npmjs.com/get-npm):
+
+```bash
+# Versões mínimas ou superiores.
+ node -v
+v12.18.0
+
+ npm -v
+6.14.4
+```
+
+```bash
+
+ # Clone este repositório
+$ git clone https://github.com/luanda-vital/challenge-angular.git
+
+# Acesse a pasta do projeto no terminal/cmd
+$ cd challenge-angular
+
+# Instale as dependências
+$ npm install
+
+# Inicie o local host
+$ npm start
+
+# O servidor iniciará na porta:4200 - acesse <http://localhost:4200> 
+
+```
+
+
+
+<!---
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+-->
