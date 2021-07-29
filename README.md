@@ -1,6 +1,6 @@
 <h1 align="center">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/2048px-Angular_full_color_logo.svg.png" alt="Angular" width="50">
-    Challenge Angular
+   <!--<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/2048px-Angular_full_color_logo.svg.png" alt="Angular" width="50">-->
+   Challenge Angular
 </h1>
 
 <h3 align="center">
