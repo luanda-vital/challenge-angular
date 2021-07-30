@@ -19,10 +19,6 @@
  <a href="#information_source-download-e-teste">Download e Teste</a>
 </p>
 
-<h4 align="center"> 
-	🚧  Em construção...  🚧
-</h4>
-
 ## :pencil2: Descrição
 O objetivo do desafio é conectar a api https://restcountries.eu/rest/v2/all e listar os países utilizando Angular.
 Deve ser colocado em uma tabela a bandeira, o nome e a capital de cada país.
@@ -39,9 +35,18 @@ As tecnologias utilizadas na construção do desafio foram:
 
 - **JavaScript** 
 
-- [TypeScript](https://www.typescriptlang.org/)
+- **TypeScript**
 
 ## :computer: ScreenShot
+
+<img src ="https://github.com/luanda-vital/challenge-angular/blob/master/src/assets/readme-telas.png" width="900">
+
+- **Projeto na versão web**
+<img src ="https://github.com/luanda-vital/challenge-angular/blob/master/src/assets/desktop-frame.gif" width="900">
+
+- **Projeto responsivo para mobile**
+<img src ="https://github.com/luanda-vital/challenge-angular/blob/master/src/assets/mobile-frame.gif" width="300">
+
 
 ## :information_source: Download e Teste
 
