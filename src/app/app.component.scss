@@ -7,7 +7,6 @@ header {
     height: 80px;
     width: 100vw;
     background-color: rgba(0,0,0,0.1);
-    box-shadow: 0 0 10px rgba(0,0,0,0.40);
     display: table-cell;
     vertical-align: middle;
     z-index: 1;
@@ -20,7 +19,7 @@ h1 {
 }
 
 body {
-    margin: 0 16px 0;
+    margin: 20px 16px 4px;
 }
 
 footer {
@@ -49,6 +48,6 @@ footer {
 
 @media screen and (max-width: 400px) {
     body {
-        margin: 0 0 0;
+        margin: 20px 0 4px;
     }
 }

@@ -1,19 +1,14 @@
-<cdk-virtual-scroll-viewport [itemSize]="15">
-            
-    <table class="tabela">
-        <thead class="tabela_cabecalho">
-            <th class="tabela_cabecalho_conteudo">Bandeira</th>
-            <th class="tabela_cabecalho_conteudo">Nome</th>
-            <th class="tabela_cabecalho_conteudo">Capital</th>
-        </thead>
-
-        <tbody>
-            <tr class="tabela__linha" *cdkVirtualFor="let p of paises">
-                <td class="tabela_linha_conteudo"><img src={{p.flag}} alt="{{p.name}} flag" id="image"></td>
-                <td class="tabela_linha_conteudo">{{p.name}}</td>
-                <td class="tabela_linha_conteudo">{{p.capital}}</td>
-            </tr>
-        </tbody>
-    </table>
-    
-</cdk-virtual-scroll-viewport>
+<div class="tabela">
+    <div class="header">
+        <div class="header_conteudo">Bandeira</div>
+        <div class="header_conteudo">Nome</div>
+        <div class="header_conteudo">Capital</div>
+    </div> 
+    <cdk-virtual-scroll-viewport [itemSize]="35">
+        <div class="linha" *cdkVirtualFor="let p of paises">
+            <div class="linha_conteudo"><img src={{p.flag}} alt="{{p.name}} flag" id="image"></div>
+            <div class="linha_conteudo">{{p.name}}</div>
+            <div class="linha_conteudo">{{p.capital}}</div>
+        </div>
+    </cdk-virtual-scroll-viewport>
+</div>
